@@ -181,7 +181,8 @@ confusionMatrix(predict(fits[[1]], newdata=testing), testing$classe)
 From the cross validation results, it's obvious that the random forest
 model gave the best performence (in terms of accuracy; it took the longest
 time to train). So the trained <b>rf</b> model was used 
-to predict the 20 assignment data and got 100% correct upon submission!
+to predict the 20 assignment data with an expected accuracy rate being over 99%.
+The actual accuracy rate was 100% upon submission!
 
 
 ```r
